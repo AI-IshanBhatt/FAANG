@@ -1,0 +1,8 @@
+This package contains all the experiments with Notations.
+Infix, Prefix, Postfix.
+Their conversion to each other and their evaluation.
+
+Also, this package contains Tree traversal in that order and problems related to that.
+
+BE CAREFUL ABOUT
+character and char, they can be represented as int and that can trip you over.

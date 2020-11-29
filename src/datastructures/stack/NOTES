@@ -1,0 +1,14 @@
+This is an important topic in stack manipulation.
+What we used to believe
+    - The last element pushed using s.push(T ele) should be on top of the stack and s.pop() returns that element.
+
+Actual (As made evident in StackWithMin.java and StackWithMax.java)
+    - You can call s.push(T ele) and put some altogether different element on top of the stack as long as you can
+    return the same ele by calling s.pop()
+
+The above is on the lines of array modulo,multiplication trick that we have been using to store two elements.
+
+In the case of StackWithMin, we pushed using minEle and the ele with certain conditions.
+Similarly we popped using same conditions.
+
+Ideally, if you can figure out the condition and equation while pushing you can use the same while popping.
